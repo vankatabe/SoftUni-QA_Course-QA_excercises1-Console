@@ -63,7 +63,7 @@ public class Main {
         System.out.println();
 
         // Print on the console the numbers from 1 to 1000. You may need to use loops.
-        System.out.print("Do you want to get the numbers from 1 to 1000? (y/n)");
+        System.out.print("Do you want to get the numbers from 1 to 1000? (y/n)"); // Provide pause between previous task and this task execution
         char yes = console.next().charAt(0);
         if ((yes == 'y')) for (int i = 1; i <= 1000; i++) {
             System.out.println(i);
